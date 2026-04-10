@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<nav>
+    <a href="index.html">Home</a>
+    <a href="page2.html">Gallery</a>
+    <a href="page3.html">Videos</a>
+</nav>
+
+<!-- Profile Section -->
+<section class="profile">
+    <img src="profile.jpg" class="profile-pic">
+    <div>
+        <h1>Your Name</h1>
+        <p>This is a short description about me.</p>
+    </div>
+</section>
+
+<!-- Photos Section -->
+<section class="photos">
+    <div class="card">
+        <img src="img1.jpg">
+        <p>Description of image 1</p>
+    </div>
+    <div class="card">
+        <img src="img2.jpg">
+        <p>Description of image 2</p>
+    </div>
+</section>
+
+<!-- Chat -->
+<section class="chat">
+    <h2>Ask Me Anything</h2>
+    <div id="chat-box"></div>
+    <input type="text" id="chat-input" placeholder="Type a message...">
+    <button onclick="sendMessage()">Send</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
