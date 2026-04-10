@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.photos, .gallery .images {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card img {
+    width: 200px;
+}
+
+.chat {
+    padding: 20px;
+    background: white;
+}
+
+#chat-box {
+    height: 150px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    padding: 20px;
+}
+
+.gallery .description {
+    width: 30%;
+}
+
+.gallery .images img {
+    width: 150px;
+}
+
+.videos video {
+    width: 300px;
+    margin: 10px;
+}
+
+.timeline .event {
+    margin: 10px;
+}
